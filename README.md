@@ -29,7 +29,7 @@ Initially we start by looking at the data present in the Dataset.
 
 Below is brief description of each feature: Input variables (based on physicochemical tests):
 
-Chemical Properties:
+Chemical and Physical Properties:
 
 * Alcohol: The percent alcohol content of the wine (% by volume)
 

@@ -268,3 +268,11 @@ The top predictors of Class type are found as follows -
 [1] "Color" "Prl"   "Flav"  "OD"    "Al"    "Hue"   "Mg"    "TotP"
 ```
 
+The following graph is a graph between OD280/OD315 and Proline and shows that the first class of wines can be easily 
+predicted using the Proline values.
+
+Proline values 800 and above have a high chance of being first class wine and 1000 and above are exclusive for first class wines.
+
+Proline is therefore seen as the best predictor for the Class of wine .
+
+![odvspro](Plots/odvspro.png)

@@ -6,8 +6,8 @@ and predicts the class from the property variants.
 ## Structure of dataset
 
 Initially we start just looking at data to understand their features better.
-'''
 
+```
        Al             Mal             Ash             Alc              Mg        
  Min.   :11.03   Min.   :0.740   Min.   :1.360   Min.   :10.60   Min.   : 70.00  
  1st Qu.:12.36   1st Qu.:1.603   1st Qu.:2.210   1st Qu.:17.20   1st Qu.: 88.00  
@@ -29,4 +29,5 @@ Initially we start just looking at data to understand their features better.
  Mean   :0.9574   Mean   :2.612   Mean   : 746.9                               
  3rd Qu.:1.1200   3rd Qu.:3.170   3rd Qu.: 985.0                               
  Max.   :1.7100   Max.   :4.000   Max.   :1680.0
-'''
+
+```

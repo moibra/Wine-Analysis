@@ -188,23 +188,23 @@ To avoid multicollinearity in model building using regressions, we have to be aw
 
 ![flavvsOD](Plots/Flavvsod.png)
 
-The graph shows that low values of both variables are found in class 1 wines , moderately valued characteristics are displayed by class 2 wines and wines having high values of Flavanoids and OD belong to Class 3.
+The graph shows that low values of both variables are found in class 3 wines , moderately valued characteristics are displayed by class 2 wines and wines having high values of Flavanoids and OD belong to Class 1.
 
 ###### Flavanoid and Total Phenols are plotted by Class of wine 
 
 ![flav vs tot](Plots/FlavvsTPhen.png)
 
-The graph shows that all wines show high total phenol content, however class 3 wines hve higher content than the rest of the classes
+The graph shows that all wines show high total phenol content, however class 1 wines hve higher content than the rest of the classes
 
-Class 1 type of wines have low Flavanoid levels while class 2 and class 3 have higher portions of Flavanoids in them.
+Class 3 type of wines have low Flavanoid levels while class 2 and class 1  have higher portions of Flavanoids in them.
 
 ##### Total Phenols and OD280/OD315 are plotted by the Class of wine .
 
 ![phen vs OD](Plots/Phenvsod.png)
 
-We learn from this graph that Class 1 wines have low values of OD and Total Phenols which is also what we learnt from previous graphs.
+We learn from this graph that Class 3 wines have low values of OD and Total Phenols which is also what we learnt from previous graphs.
 
-However, Class 2 and Class 3 type of wines show higher levels of OD280/OD315 and Class 3 types of wines in particular have higher values of Total Phenols.
+However, Class 2 and Class 1 type of wines show higher levels of OD280/OD315 and Class 1 types of wines in particular have higher values of Total Phenols.
 
 Below are Plottings of Total Phenol and OD280/OD315 faceted by the Class of the wines.
 

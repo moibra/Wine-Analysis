@@ -215,7 +215,56 @@ The results got are in tandem with individual plottings as well .
 
 ### Predicting Wine Class
 
+GBM Modeling is performed as there are 3 response variables in the Class. 
 
+The dataset is split into a 70:30 ratio. Training dataset occupies 70% of the dataset and the test dataset occupies 30 % of the dataset.
 
+Predictions table got is as follows  - 
 
+```
+> table(test$class_num,Predict)
+   Predict
+     1  2  3
+  1 18  0  0
+  2  0 20  1
+  3  0  0 14
+```
+
+###### Accuracy = ( 18 + 20 + 14 ) / (53) = 98.1 % 
+
+```
+> acc
+[1] 0.9811321
+```
+
+The summary of the Model provides the features and their weighted percentages : 
+
+```
+> summary(model, order=TRUE)
+        var     rel.inf
+Prl     Prl 26.49214259
+Color Color 21.05442613
+OD       OD 19.61548943
+Flav   Flav 12.73613118
+Al       Al 10.45919260
+Hue     Hue  4.78965391
+Alc     Alc  2.45676213
+Mal     Mal  1.31343826
+Ash     Ash  0.39829753
+Mg       Mg  0.37031189
+TotP   TotP  0.27474601
+Pro     Pro  0.03940834
+NFlav NFlav  0.00000000
+```
+
+We can see that Proline, Intensity of Color, OD280/OD315, Flavanoids and Alcohol Percenatage play a vital part in Predicting the Model.
+
+Feature Selection is performed to find out which features affect the Predictions the most 
+
+The top predictors of Class type are found as follows - 
+
+```
+> predictors(results)
+[1] "Color" "Prl"   "Flav"  "OD"    "Al"    "Hue"   "Mg"    "TotP"
+```
 

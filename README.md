@@ -96,7 +96,22 @@ Above figure shows the distribution of data over different variables. As we can 
 Boxplot of Alcohol Content Percent :
 
 ![boxplot of Alcohol](Plots/boxplot.png)
+For most of the wine in our dataset, alcohol percentage falls between 12 and 14. 
+
+#### Distribution of Data : Alcohol, Color , Flavanoids and Malic Acid
+
+Distribution of Acohol percentages and Color of intensity across the three classes is shown - 
+[alcohol](Plots/Alcohol_Content.png)
+[color](Plots/Color.png)
+We can see that Class 1 type wines are in the 
+
+Distribution of Flavanoids and Malic Acid is shown - 
+[flav](Plots/Flavanoids.png)
+[malic](Plots/Malic_Acid.png)
+
+Here we see 
 
 
 
-#### Distribution of Data : 
+
+#### Analyzing Correlation among input variables in the dataset

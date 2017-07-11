@@ -101,13 +101,13 @@ For most of the wine in our dataset, alcohol percentage falls between 12 and 14.
 #### Distribution of Data : Alcohol, Color , Flavanoids and Malic Acid
 
 Distribution of Acohol percentages and Color of intensity across the three classes is shown - 
-[alcohol](Plots/Alcohol_Content.png)
-[color](Plots/Color.png)
+![alcohol](Plots/Alcohol_Content.png)
+![color](Plots/Color.png)
 We can see that Class 1 type wines are in the 
 
 Distribution of Flavanoids and Malic Acid is shown - 
-[flav](Plots/Flavanoids.png)
-[malic](Plots/Malic_Acid.png)
+![flav](Plots/Flavanoids.png)
+![malic](Plots/Malic_Acid.png)
 
 Here we see 
 

@@ -93,4 +93,10 @@ Above figure shows the distribution of data over different variables. As we can 
 
 ### Plottings
 
+Boxplot of Alcohol Content Percent :
 
+![boxplot of Alcohol](Plots/boxplot.png)
+
+
+
+#### Distribution of Data : 

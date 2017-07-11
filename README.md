@@ -96,6 +96,7 @@ Above figure shows the distribution of data over different variables. As we can 
 Boxplot of Alcohol Content Percent :
 
 ![boxplot of Alcohol](Plots/boxplot.png)
+
 For most of the wine in our dataset, alcohol percentage falls between 12 and 14. 
 
 #### Distribution of Data : Alcohol, Color , Flavanoids and Malic Acid
@@ -158,6 +159,8 @@ Prl   -0.63371678
 
 This shows that Wine Class has a positive correlation with Alcalinity and Malic Acid and negative correlation with OD280/OD315 , Flavanoids and Total Phenols .
 
+#### Analyzing Correlation among input variables in the dataset
+
 The following diagram gives us a good sense of the distribution and correlation among input variables in our dataset:
 
 ![loess](Plots/Loess_plot.png)
@@ -203,4 +206,13 @@ We learn from this graph that Class 1 wines have low values of OD and Total Phen
 
 However, Class 2 and Class 3 type of wines show higher levels of OD280/OD315 and Class 3 types of wines in particular have higher values of Total Phenols.
 
-#### Analyzing Correlation among input variables in the dataset
+Below are Plottings of Total Phenol and OD280/OD315 faceted by the Class of the wines.
+
+The results got are in tandem with individual plottings as well .
+
+![OD](Plots/OD.png)
+![TotPhen](Plots/Tot_Phenols.png)
+
+
+
+

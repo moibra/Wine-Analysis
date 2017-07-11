@@ -160,7 +160,7 @@ This shows that Wine Class has a positive correlation with Alcalinity and Malic 
 
 The following diagram gives us a good sense of the distribution and correlation among input variables in our dataset:
 
-![leoss](Path/Leoss_plot.png)
+![loess](Plots/Loess_plot.png)
 
 
 

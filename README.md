@@ -105,14 +105,21 @@ Distribution of Acohol percentages and Color of intensity across the three class
 ![color](Plots/Color.png)
 
 Alcohol Content :
+
 Class 1 : 13 - 14.5 %
+
 Class 2 : 11.5 - 13 %
+
 Class 3 : 12 - 14.5 % .
+
 We see there is a relation between the alcohol content and the class of wine . 
 
 Intensity of Color : 
+
 Class 1 have a moderate level of color ( 4-8 )
+
 Class 2 seem to be lightly colored ( 1-6 )
+
 Class 3 are darker in color ranging from 4 - 11 in intensity of color.
 
 Distribution of Flavanoids and Malic Acid is shown - 
@@ -120,8 +127,49 @@ Distribution of Flavanoids and Malic Acid is shown -
 ![malic](Plots/Malic_Acid.png)
 
 Flavanoid Content appears to be moderately low in Class 1 wines ( 1-3 mg/L )
+
 In class 2 wines it ranges from 0.5 - 4 mg/L .
+
 In class 3 type of wines, it is spread from 1 - 6 mg/L . 
+
+
+####  Analysizing correlation between Class and Input variables
+
+We use Spearman's rho statistic to estimate a rank-based measure of association. Correlations falls between -1 and 1. 0 suggests there is no association between the two variables while numbers close to -1 or 1 suggests strong negative and positive associations accordingly.
+
+
+```
+> cor(wine[,1:13], wine$class_num)
+             [,1]
+Al    -0.33044357
+Mal    0.43945626
+Ash   -0.04142315
+Alc    0.51785911
+Mg    -0.20917939
+TotP  -0.71949973
+Flav  -0.84616171
+NFlav  0.46064788
+Pro   -0.50040328
+Color  0.26682296
+Hue   -0.60598251
+OD    -0.78604206
+Prl   -0.63371678
+```
+
+This shows that Wine Class has a positive correlation with Alcalinity and Malic Acid and negative correlation with OD280/OD315 , Flavanoids and Total Phenols .
+
+The following diagram gives us a good sense of the distribution and correlation among input variables in our dataset:
+
+![leoss](Path/Leoss_plot.png)
+
+
+
+#### 2 Variables are plotted against the Class of the wine
+
+Flavanoid and OD280/od315 are plotted against the Class of wine 
+
+![flavvsOD](Plots/Flavvsod.png)
+
 
 
 

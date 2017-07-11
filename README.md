@@ -103,13 +103,28 @@ For most of the wine in our dataset, alcohol percentage falls between 12 and 14.
 Distribution of Acohol percentages and Color of intensity across the three classes is shown - 
 ![alcohol](Plots/Alcohol_Content.png)
 ![color](Plots/Color.png)
-We can see that Class 1 type wines are in the 
+
+Alcohol Content :
+Class 1 : 13 - 14.5 %
+Class 2 : 11.5 - 13 %
+Class 3 : 12 - 14.5 % .
+We see there is a relation between the alcohol content and the class of wine . 
+
+Intensity of Color : 
+Class 1 have a moderate level of color ( 4-8 )
+Class 2 seem to be lightly colored ( 1-6 )
+Class 3 are darker in color ranging from 4 - 11 in intensity of color.
 
 Distribution of Flavanoids and Malic Acid is shown - 
 ![flav](Plots/Flavanoids.png)
 ![malic](Plots/Malic_Acid.png)
 
-Here we see 
+Flavanoid Content appears to be moderately low in Class 1 wines ( 1-3 mg/L )
+In class 2 wines it ranges from 0.5 - 4 mg/L .
+In class 3 type of wines, it is spread from 1 - 6 mg/L . 
+
+
+
 
 
 

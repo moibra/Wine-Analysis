@@ -31,7 +31,14 @@ Below is brief description of each feature: Input variables (based on physicoche
 
 Chemical Prperties:
 
-alcohol: the percent alcohol content of the wine (% by volume)
+* Alcohol: The percent alcohol content of the wine (% by volume)
+* Malic Acid : It is one of the principal organic acids found in wine grapes (g/l)
+* Ash : Ash content is one of the important indicators in wine quality determination (mS/cm)
+* Alcalinity : Several different types of acids found in wine affect how acidic a wine tastes. (pH)
+* Magnesium : Magnesium content in wines (gm per 1kg)
+* Total phenols : These are flavonoids that contribute to the construction of various tannins and contribute to the perception of bitterness in wine. (mg/L)
+* Flavanoid : 
+
 
 
 

@@ -179,22 +179,28 @@ A few of the observations from the above diagram -
 
 To avoid multicollinearity in model building using regressions, we have to be aware of strong correlations among input variables.
 
-#### 2 Variables are plotted against the Class of the wine
+#### 2 Variables are plotted for each Class of the wine
 
-Flavanoid and OD280/od315 are plotted for each Class of wine 
+##### Flavanoid and OD280/od315 are plotted for each Class of wine 
 
 ![flavvsOD](Plots/Flavvsod.png)
 
-Flavanoid and Total Phenols are plotted by Class of wine 
+The graph shows that low values of both variables are found in class 1 wines , moderately valued characteristics are displayed by class 2 wines and wines having high values of Flavanoids and OD belong to Class 3.
+
+###### Flavanoid and Total Phenols are plotted by Class of wine 
 
 ![flav vs tot](Plots/FlavvsTPhen.png)
 
+The graph shows that all wines show high total phenol content, however class 3 wines hve higher content than the rest of the classes
 
-Total Phenols and OD280/OD315 are plotted by the Class of wine .
+Class 1 type of wines have low Flavanoid levels while class 2 and class 3 have higher portions of Flavanoids in them.
+
+##### Total Phenols and OD280/OD315 are plotted by the Class of wine .
 
 ![phen vs OD](Plots/Phenvsod.png)
 
+We learn from this graph that Class 1 wines have low values of OD and Total Phenols which is also what we learnt from previous graphs.
 
-
+However, Class 2 and Class 3 type of wines show higher levels of OD280/OD315 and Class 3 types of wines in particular have higher values of Total Phenols.
 
 #### Analyzing Correlation among input variables in the dataset

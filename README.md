@@ -5,7 +5,7 @@ and predicts the class from the property variants.
 
 ## Structure of dataset
 
-Initially we start just looking at data to understand their features better.
+Initially we start by looking at the data summary to understand the features better.
 
 ```
        Al             Mal             Ash             Alc              Mg        
@@ -31,3 +31,10 @@ Initially we start just looking at data to understand their features better.
  Max.   :1.7100   Max.   :4.000   Max.   :1680.0
 
 ```
+
+
+Above figure shows the distribution of data over different variables. As we can see, the normal range for fixed acidity is 12.36 to 13.68 percent. As for malic acid, 75% of wines in our dataset have below 3.083 mg of malic acid in their content. Also, the Average alcohol percentage in our dataset is about 13.
+
+
+### Plottings
+

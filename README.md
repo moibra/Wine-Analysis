@@ -190,7 +190,7 @@ To avoid multicollinearity in model building using regressions, we have to be aw
 
 The graph shows that low values of both variables are found in class 3 wines , moderately valued characteristics are displayed by class 2 wines and wines having high values of Flavanoids and OD belong to Class 1.
 
-###### Flavanoid and Total Phenols are plotted by Class of wine 
+##### Flavanoid and Total Phenols are plotted by Class of wine 
 
 ![flav vs tot](Plots/FlavvsTPhen.png)
 
@@ -212,6 +212,9 @@ The results got are in tandem with individual plottings as well .
 
 ![OD](Plots/OD.png)
 ![TotPhen](Plots/Tot_Phenols.png)
+
+### Predicting Wine Class
+
 
 
 

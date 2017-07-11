@@ -32,24 +32,36 @@ Below is brief description of each feature: Input variables (based on physicoche
 Chemical Properties:
 
 * Alcohol: The percent alcohol content of the wine (% by volume)
+
 * Malic Acid : It is one of the principal organic acids found in wine grapes (g/l)
+
 * Ash : Ash content is one of the important indicators in wine quality determination (mS/cm)
+
 * Alcalinity : Several different types of acids found in wine affect how acidic a wine tastes. (pH)
+
 * Magnesium : Magnesium content in wines (gm per 1kg)
+
 * Total phenols : These are flavonoids that contribute to the construction of various tannins and contribute to the perception of bitterness in wine. (mg/L)
+
 * Flavanoid : Flavonoids are the most abundant polyphenols in the wine. (mg/L)
+
 * Non Flavanoid Phenols : Phenolic compounds in wine contribute specific characteristics to wine while also creating specific flavors and aromas when the complex interactions take place in wine during fermentation and wine-making. (mg/L)
+
 * Proanthocyanidins : A class of Phenol . (mg/L)
+
 * Color intensity : A simple measure of how dark the wine is.
-* Hue : It is one of the main properties of color
+
+* Hue : It is one of the main properties of color.
+
 * OD280/ OD315 of Diluted Wine .
+
 * Proline : An amino-acid . (mg/L)
 
 Output variable :
 
 class ( classified into one, two and three )
  
-
+### Summary of the Dataset
 ```
        Al             Mal             Ash             Alc              Mg        
  Min.   :11.03   Min.   :0.740   Min.   :1.360   Min.   :10.60   Min.   : 70.00  
@@ -80,4 +92,5 @@ Above figure shows the distribution of data over different variables. As we can 
 
 
 ### Plottings
+
 

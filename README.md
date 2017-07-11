@@ -163,6 +163,21 @@ The following diagram gives us a good sense of the distribution and correlation 
 ![loess](Plots/Loess_plot.png)
 
 
+A few of the observations from the above diagram - 
+
+* Positive correlation between Flavanoids and Total Phenols
+
+* Positive correlation between OD280/OD315 and Total Phenols
+
+* Positive correlation between OD280/OD315 and Flavanoids
+
+* Positive correlation between Intensity of Color and Alcohol Content
+
+* Negative correlation between Non Flavanoid Phenols and Flavanoids
+
+* Negative correlation between OD280/OD315 and Non Flavanoid Phenols
+
+
 
 #### 2 Variables are plotted against the Class of the wine
 

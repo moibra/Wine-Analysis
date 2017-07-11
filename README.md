@@ -1,6 +1,12 @@
-# WineAnaly
+# Predicting the factors leading to the Classification of Wines and developing a Model.
+
+### by Mohammed Ibraheem 
+
+### code on github.com/moibra/WineAnaly
+
+## Wine Analysis
 This project analyses the various factors which can be used to classify wines into three classes.
-It studies the different properties across the 3 different classes, tries to find relations amongst them 
+It studies the different properties across the 3 different classes, tries to find relationships amongst them 
 and predicts the class from the property variants.
 
 ## Structure of dataset

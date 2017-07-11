@@ -29,7 +29,7 @@ Initially we start by looking at the data present in the Dataset.
 
 Below is brief description of each feature: Input variables (based on physicochemical tests):
 
-Chemical Prperties:
+Chemical Properties:
 
 * Alcohol: The percent alcohol content of the wine (% by volume)
 * Malic Acid : It is one of the principal organic acids found in wine grapes (g/l)
@@ -37,12 +37,13 @@ Chemical Prperties:
 * Alcalinity : Several different types of acids found in wine affect how acidic a wine tastes. (pH)
 * Magnesium : Magnesium content in wines (gm per 1kg)
 * Total phenols : These are flavonoids that contribute to the construction of various tannins and contribute to the perception of bitterness in wine. (mg/L)
-* Flavanoid : 
-
-
-
-
-
+* Flavanoid : Flavonoids are the most abundant polyphenols in the wine. (mg/L)
+* Non Flavanoid Phenols : Phenolic compounds in wine contribute specific characteristics to wine while also creating specific flavors and aromas when the complex interactions take place in wine during fermentation and wine-making. (mg/L)
+* Proanthocyanidins : A class of Phenol . (mg/L)
+* Color intensity : A simple measure of how dark the wine is.
+* Hue : It is one of the main properties of color
+* OD280/ OD315 of Diluted Wine .
+* Proline : An amino-acid . (mg/L)
 
 Output variable :
 

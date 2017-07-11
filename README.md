@@ -177,17 +177,22 @@ A few of the observations from the above diagram -
 
 * Negative correlation between OD280/OD315 and Non Flavanoid Phenols
 
-
+To avoid multicollinearity in model building using regressions, we have to be aware of strong correlations among input variables.
 
 #### 2 Variables are plotted against the Class of the wine
 
-Flavanoid and OD280/od315 are plotted against the Class of wine 
+Flavanoid and OD280/od315 are plotted for each Class of wine 
 
 ![flavvsOD](Plots/Flavvsod.png)
 
+Flavanoid and Total Phenols are plotted by Class of wine 
+
+![flav vs tot](Plots/FlavvsTPhen.png)
 
 
+Total Phenols and OD280/OD315 are plotted by the Class of wine .
 
+![phen vs OD](Plots/Phenvsod.png)
 
 
 
